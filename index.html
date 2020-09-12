@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <title>Sheet</title>
+</head>
+
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn"></i>
+            <i class="fa fa-times" id="close-btn"></i>
+
+            <img src="img/logo.png" class="logo" alt="logo">
+
+            <input type="text" id="filter-search" class="form-control" placeholder="Search">
+            <span class="input-group-text"><i id="search-logo" class="fa fa-search"></i></span>
+
+        </div>
+    </div>
+
+    <div class="side-menu" id="side-menu">
+        <div id="buttons">
+            <button id="a" type="button" data-target="all" class="btn m-1 btn-outline-primary active">All</button>
+            <button id="b" type="button" data-target="bags" class="btn m-1 btn-outline-primary">Bags</button>
+            <button id="c" type="button" data-target="wallets" class="btn m-1 btn-outline-primary">Wallets</button>
+            <button id="d" type="button" data-target="shirts" class="btn m-1 btn-outline-primary">Shirts</button>
+            <button id="e" type="button" data-target="t-shirts" class="btn m-1 btn-outline-primary">T-Shirt</button>
+            <button id="f" type="button" data-target="shorts" class="btn m-1 btn-outline-primary">Shorts</button>
+            <button id="g" type="button" data-target="shoes" class="btn m-1 btn-outline-primary">Shoes</button>
+        </div>
+    </div>
+
+
+    <section class="p-items">
+
+        <div class="wrapper">
+            <div class="row" id="items">
+
+                <!-- Bags-Section -->
+
+                <!-- bag-1-->
+                <div data-search="2219" data-id="bags" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/b1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bag 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code: 2219 </li>
+                        <li class="list-group-item">Size: M </li>
+                        <li class="list-group-item">Q: 2</li>
+                    </ul>
+                </div>
+
+                <!-- bag-2-->
+                <div data-search="1647" data-id="bags" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/b2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bag 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 1647 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- bag-3-->
+                <div data-search="1750" data-id="bags" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/b3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bag 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 1750 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+
+                <!-- Wallets-Section -->
+
+
+                <!-- Wallet-1-->
+                <div data-search="5646" data-id="wallets" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/w1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Wallet 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 5646 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!--  Wallet-2-->
+                <div data-search="9936" data-id="wallets" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/w2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Wallet 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 9936 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!--  Wallet-3-->
+                <div data-search="2966" data-id="wallets" class="card col-md-4 col-lg-4  col-sm-12 m-3 
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/w3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Wallet 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 2966 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+
+                <!-- Shirts-Section -->
+
+                <!-- Shirt-1-->
+                <div data-search="9987" data-id="shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shirt 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 9987 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Shirt-2-->
+                <div data-search="8404" data-id="shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shirt 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 8404 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Shirt-3-->
+                <div data-search="2620" data-id="shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shirt 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 2620 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+
+                <!-- T-Shirt-Section -->
+
+
+                <!-- T-Shirt-1-->
+                <div data-search="6819" data-id="t-shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/t1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirt 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 6819 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- T-Shirt-2-->
+                <div data-search="4661" data-id="t-shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/t2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirt 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 4661 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- T-Shirt-3-->
+                <div data-search="2439" data-id="t-shirts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+                " style="width: 18rem;">
+                    <img class="card-img-top" src="items/t3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirt 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 2439 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+                <!-- Shorts-Section -->
+
+
+                <!-- Short-1-->
+                <div data-search="9648" data-id="shorts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/sh1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Short 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 9648 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Short-2-->
+                <div data-search="4995" data-id="shorts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+                " style="width: 18rem;">
+                    <img class="card-img-top" src="items/sh2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Short 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 4995 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Short-3-->
+                <div data-search="5053" data-id="shorts" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/sh3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Short 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 5053 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Shoes-Section -->
+
+                <!-- Shoes-1-->
+                <div data-search="1293" data-id="shoes" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/s1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoes 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 1293 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Shoes-2-->
+                <div data-search="4796" data-id="shoes" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/s2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoes 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 4796 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+                <!-- Shoes-3-->
+                <div data-search="4824" data-id="shoes" class="card col-md-4 col-lg-4  col-sm-12 m-3
+            " style="width: 18rem;">
+                    <img class="card-img-top" src="items/s3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoes 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis
+                            lorem</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Code : 4824 </li>
+                        <li class="list-group-item">Size : M </li>
+                        <li class="list-group-item">Q : 2</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
