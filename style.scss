@@ -114,21 +114,19 @@ body {
     width: 45%;
   }
 }
-
-@media only screen and(max-width:321px) {
+@media only screen and(max-width:426px) {
   .wrapper {
-    width: 90%;
+    width: 70%;
   }
 }
-
 @media only screen and(max-width:376px) {
   .wrapper {
     width: 77%;
   }
 }
 
-@media only screen and(max-width:426px) {
+@media only screen and(max-width:321px) {
   .wrapper {
-    width: 70%;
+    width: 90%;
   }
 }
