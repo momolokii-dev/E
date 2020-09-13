@@ -75,7 +75,7 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
-  padding-left: 38px;
+  padding-left: 14px;
 }
 
 @media only screen and(max-width:980px) {
@@ -107,8 +107,9 @@ body {
   }
 }
 
-@media only screen and(max-width:550px) {
+@media only screen and(max-width:668px) {
   .wrapper {
     padding-top: 40px;
+    padding-left: 25px;
   }
 }
