@@ -64,6 +64,8 @@ body {
   text-align: center;
   margin: 20px;
   position: relative;
+  animation-name: opacity;
+  animation-duration: 2s;
 }
 
 #menu-btn,
@@ -133,5 +135,14 @@ body {
 @media only screen and(max-width:321px) {
   .wrapper {
     width: 97%;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
