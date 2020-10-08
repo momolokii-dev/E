@@ -17,8 +17,11 @@ body {
   position: fixed;
   bottom: 15px;
   right: 15px;
+  width: 64px;
+  height: 67px;
   display: none;
   cursor: pointer;
+  z-index: 10000;
 }
 
 .top-nav-bar {
@@ -118,11 +121,19 @@ body {
     padding-left: 10px;
     width: 85%;
   }
+  .scroll-top {
+    width: 50px;
+    height: 52px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
   .wrapper {
     width: 75%;
+  }
+  .scroll-top {
+    width: 50px;
+    height: 52px;
   }
 }
 
@@ -130,11 +141,19 @@ body {
   .wrapper {
     width: 86%;
   }
+  .scroll-top {
+    width: 50px;
+    height: 52px;
+  }
 }
 
 @media only screen and (max-width: 321px) {
   .wrapper {
     width: 97%;
+  }
+  .scroll-top {
+    width: 50px;
+    height: 52px;
   }
 }
 
