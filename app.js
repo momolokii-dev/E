@@ -50,3 +50,16 @@ filter.addEventListener("keyup", function (e) {
     }
   }
 });
+
+let btnn = document.getElementById("scroll");
+window.onscroll = function () {
+  if (window.pageYOffset >= 400) {
+    btnn.style.display = "block";
+  } else {
+    btnn.style.display = "none";
+  }
+};
+
+btnn.onclick = function () {
+  window.scrollTo(0, 0);
+};

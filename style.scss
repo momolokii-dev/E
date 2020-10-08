@@ -12,6 +12,17 @@ body {
   font-weight: 400;
 }
 
+.p-items {
+  position: relative;
+}
+.scroll-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;
+  cursor: pointer;
+}
+
 //top-nav
 .top-nav-bar {
   height: 57px;
